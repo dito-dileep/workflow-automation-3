@@ -52,7 +52,7 @@
 
 ## What the model covers
 
-The straight-through route is deliberately short: submit → validate → verify in parallel → assess risk → approve → offer → accept → sign → disburse. The model then layers in the controls a real lending process needs:
+The straight-through route is deliberately short: submit â†’ validate â†’ verify in parallel â†’ assess risk â†’ approve â†’ offer â†’ accept â†’ sign â†’ disburse. The model then layers in the controls a real lending process needs:
 
 - Document correction and a seven-day lapse timer
 - Parallel KYC, credit-bureau and income/employment checks
@@ -78,19 +78,19 @@ The straight-through route is deliberately short: submit → validate → verify
 
 ```text
 Application + documents
-        ↓
+        â†“
 Completeness check
-        ↓
-KYC  ║  credit score  ║  income verification     (parallel)
-        ↓
+        â†“
+KYC  â•‘  credit score  â•‘  income verification     (parallel)
+        â†“
 Eligibility & risk scoring
-        ↓
+        â†“
 Underwriter approval
-        ↓
-Generate + send offer → applicant accepts → e-signs
-        ↓
-Verified-account disbursement → account creation → notification
-        ↓
+        â†“
+Generate + send offer â†’ applicant accepts â†’ e-signs
+        â†“
+Verified-account disbursement â†’ account creation â†’ notification
+        â†“
 Loan disbursed
 ```
 
@@ -129,12 +129,11 @@ The register below is intentionally matched to the brief. Each resolution is exp
 
 ```text
 BPMN_Exercise_3/
-├── loan-origination-approval.bpmn   # Editable BPMN 2.0 source
-├── FAILURE_PATH_REGISTER.md         # Expanded operational register
-├── SUBMISSION_CHECKLIST.md          # Final pre-submission checks
-├── images/
-│   └── loan-origination-overview.svg
-└── README.md                        # You are here
+â”œâ”€â”€ loan-origination-approval.bpmn   # Editable BPMN 2.0 source
+â”œâ”€â”€ FAILURE_PATH_REGISTER.md         # Expanded operational register
+â”œâ”€â”€ images/
+â”‚   â””â”€â”€ loan-origination-overview.svg
+â””â”€â”€ README.md                        # You are here
 ```
 
 ## Open and review
@@ -144,12 +143,8 @@ BPMN_Exercise_3/
 3. Inspect the named exception branches and boundary events against the Failure Path Register.
 4. Export a PNG or PDF from the modeller if your submission portal requests one.
 
-## Submission checklist
-
-The detailed checklist is available in [`SUBMISSION_CHECKLIST.md`](SUBMISSION_CHECKLIST.md). Before sharing the repository, make sure the BPMN opens cleanly, the source files are committed, and the GitHub repository visibility matches your course requirements.
-
 ---
 
 <div align="center">
-  <sub>Prepared as a BPMN 2.0 coursework artefact • clear process logic, observable exceptions, and readable documentation.</sub>
+  <sub>BPMN 2.0 process models â€¢ clear process logic and observable exception handling.</sub>
 </div>
