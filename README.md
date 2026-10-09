@@ -34,6 +34,14 @@
 | **1** | Student Project Approval & Allocation | [`assignment-1-student-project-approval.bpmn`](assignment-1-student-project-approval.bpmn) | [`ASSIGNMENT_1_FAILURE_PATH_REGISTER.md`](ASSIGNMENT_1_FAILURE_PATH_REGISTER.md) |
 | **3** | Loan Origination & Approval | [`loan-origination-approval.bpmn`](loan-origination-approval.bpmn) | [`FAILURE_PATH_REGISTER.md`](FAILURE_PATH_REGISTER.md) |
 
+## Assignment 1 process view
+
+<p align="center">
+  <img src="images/student-project-approval-overview.svg" alt="Student project approval and allocation BPMN overview" width="100%" />
+</p>
+
+> The editable Assignment 1 source is [`assignment-1-student-project-approval.bpmn`](assignment-1-student-project-approval.bpmn). Its supporting controls are documented in the [Assignment 1 Failure Path Register](ASSIGNMENT_1_FAILURE_PATH_REGISTER.md).
+
 ## Assignment 3 process view
 
 <p align="center">
