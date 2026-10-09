@@ -1,8 +1,8 @@
-# Loan Origination & Approval System
+# BPMN Exception-First Process Models
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3200&pause=900&color=0F766E&center=true&vCenter=true&repeat=true&width=760&height=75&lines=Loan+Origination+%26+Approval+System;BPMN+2.0+%E2%80%A2+Happy+Path+%2B+Exception+Design" alt="Animated project title" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3200&pause=900&color=0F766E&center=true&vCenter=true&repeat=true&width=760&height=75&lines=Two+BPMN+2.0+Assignment+Models;Happy+Paths+%2B+Exception--First+Design" alt="Animated project title" />
 
 <br/>
 
@@ -10,7 +10,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Exception--first-0E7490?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Submission--ready-16A34A?style=for-the-badge)
 
-*A resilient personal and secured-loan workflow, designed for the happy path **and** the decisions, timeouts, failures and cancellations around it.*
+*Two complete coursework models, designed for the happy path **and** the decisions, timeouts, failures and cancellations around it.*
 
 </div>
 
@@ -20,14 +20,21 @@
 
 | | |
 |:--|:--|
-| **Assignment** | Assignment 3 — Loan Origination & Approval System |
+| **Assignments completed** | Assignment 1 and Assignment 3 |
 | **Process starts** | Applicant submits an application and supporting documents |
 | **Successful end** | Loan is disbursed and the applicant is notified |
 | **Alternate ends** | Rejected, lapsed, withdrawn, offer expired, or funds held for repair |
 | **Modelling standard** | BPMN 2.0 |
 | **Primary tool** | Camunda Modeler / any BPMN 2.0-compatible modeller |
 
-## Process view
+## Included assignments
+
+| Assignment | Scenario | BPMN source | Failure register |
+|:--|:--|:--|:--|
+| **1** | Student Project Approval & Allocation | [`assignment-1-student-project-approval.bpmn`](assignment-1-student-project-approval.bpmn) | [`ASSIGNMENT_1_FAILURE_PATH_REGISTER.md`](ASSIGNMENT_1_FAILURE_PATH_REGISTER.md) |
+| **3** | Loan Origination & Approval | [`loan-origination-approval.bpmn`](loan-origination-approval.bpmn) | [`FAILURE_PATH_REGISTER.md`](FAILURE_PATH_REGISTER.md) |
+
+## Assignment 3 process view
 
 <p align="center">
   <img src="images/loan-origination-overview.svg" alt="Loan origination BPMN overview" width="100%" />
